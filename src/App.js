@@ -18,7 +18,7 @@ class App extends Component{
   render(){
     return (
       <div>
-       你点击了<psan id='value'>{this.props.value}</psan>
+       你点击了<span id='value'>{this.props.value}</span>
        <div>
           <button id='add' onClick={()=>this.add1()}>+1</button>
           <button id='minus' onClick={()=>this.add2()}>-1</button>
